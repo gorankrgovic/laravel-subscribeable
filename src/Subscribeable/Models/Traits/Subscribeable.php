@@ -43,7 +43,7 @@ trait Subscribeable
      */
     public function subscribesCounter()
     {
-        return $this->morphOne(app(SubscribeCounterContract::class), 'likeable');
+        return $this->morphOne(app(SubscribeCounterContract::class), 'subscribeable');
     }
 
     /**
