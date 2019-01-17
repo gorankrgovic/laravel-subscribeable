@@ -211,9 +211,9 @@ class SubscribeableService implements SubscribeableServiceContract
 
     /**
      * @param $userId
-     * @return int
+     * @return string
      */
-    public function getSubscriberUserId($userId): int
+    public function getSubscriberUserId($userId): string
     {
         if ($userId instanceof SubscriberContract) {
             return $userId->getKey();
@@ -231,7 +231,7 @@ class SubscribeableService implements SubscribeableServiceContract
     /**
      * Fetch the primary ID of the currently logged in user.
      *
-     * @return null|int
+     * @return null|string
      */
     protected function loggedInUserId()
     {
