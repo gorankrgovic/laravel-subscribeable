@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is not a package for managing subscribers related to memberships and payed methods. It is used for managing user/subscriber relations just like
+IMPORTANT: This is not a package for managing subscribers related to memberships and payed methods. It is used for managing user/subscriber relations just like
 in YouTube for example, where the model can be subscribed by user.
 
 This package is based on an idea and an architecture of the [Laravel Love](https://github.com/cybercog/laravel-love) package, although the functionality is different.
