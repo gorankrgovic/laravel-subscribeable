@@ -29,8 +29,8 @@
   },
   "require": {
     "php": "^7.0",
-    "illuminate/database": "~5.5.0|~5.6.0|~5.7.0",
-    "illuminate/support": "~5.5.0|~5.6.0|~5.7.0",
+    "illuminate/database": "~5.5.0|~5.6.0|~5.7.0|~5.8.0",
+    "illuminate/support": "~5.5.0|~5.6.0|~5.7.0|~5.8.0",
     "ramsey/uuid": "^3.8"
   },
   "require-dev": {
@@ -38,7 +38,7 @@
     "mockery/mockery": "^1.0",
     "orchestra/database": "~3.5.0|~3.6.0|~3.7.0",
     "orchestra/testbench": "~3.5.0|~3.6.0|~3.7.0",
-    "phpunit/phpunit": "^6.0|^7.0"
+    "phpunit/phpunit": "^6.0|^7.0|^7.5"
   },
   "autoload": {
     "psr-4": {
